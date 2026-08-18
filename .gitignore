@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Dataset
+data/
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Results generated during experiments
+results/*.csv
+results/*.png
+results/*.jpg
+
+# PyTorch models
+*.pth
+*.pt
+
+# ONNX
+*.onnx
+
+# TensorRT
+*.engine
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
