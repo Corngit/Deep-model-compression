@@ -1,0 +1,14 @@
+{
+    "model": "mobilenet_v3_small",
+    "data_dir": "./data",
+    "epochs": 1,
+    "batch_size": 8,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "num_workers": 0,
+    "seed": 42,
+    "run_name": "smoke_mobilenet",
+    "max_train_samples": 512,
+    "max_val_samples": 128,
+    "max_test_samples": 128
+}

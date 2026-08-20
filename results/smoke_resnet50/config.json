@@ -1,0 +1,14 @@
+{
+    "model": "resnet50",
+    "data_dir": "./data",
+    "epochs": 1,
+    "batch_size": 4,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "num_workers": 0,
+    "seed": 42,
+    "run_name": "smoke_resnet50",
+    "max_train_samples": 128,
+    "max_val_samples": 64,
+    "max_test_samples": 64
+}
